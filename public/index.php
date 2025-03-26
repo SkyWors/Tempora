@@ -47,6 +47,15 @@ $routeur->check(
 );
 
 $routeur->check(
+	url: '/reset/$link',
+	controller: "Accounts\ResetController",
+	pageData: [
+		"page_title" => APP_NAME . " - " . Lang::translate(key: "RESET_TITLE"),
+		"page_needLoginToBe" => false
+	]
+);
+
+$routeur->check(
 	url: '/disconnect',
 	controller: "Accounts\DisconnectController"
 );

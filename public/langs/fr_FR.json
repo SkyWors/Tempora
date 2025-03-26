@@ -12,6 +12,7 @@
 	"MAIN_SAVE": "Sauvegarder",
 	"MAIN_OLD_PASSWORD": "Mot de passe actuel",
 	"MAIN_NEW_PASSWORD": "Nouveau mot de passe",
+	"MAIN_PASSWORD_FORGOT": "Mot de passe oublié ?",
 	"MAIN_CONFIRM": "Confirmer",
 
 	"NAVBAR_HOME": "Accueil",
@@ -20,6 +21,9 @@
 	"NAVBAR_REGISTER": "Créer un compte",
 	"NAVBAR_DISCONNECT": "Déconnexion",
 	"NAVBAR_ACCOUNT": "Compte",
+
+	"MAIL_RESET_PASSWORD_OBJECT": "Réinitialisation du mot de passe",
+	"MAIL_RESET_PASSWORD_BODY": "Merci de mettre à jour votre mot de passe avec l'URL suivante : https://$[domain]/reset/$[link]",
 
 	"LOGIN_TITLE": "Connexion",
 	"LOGIN_SUBMIT": "Se connecter",
